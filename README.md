@@ -15,7 +15,7 @@ Contribute to : http://emacs.vote-system.com/ !
 If all of this is OK so you can install it :
 
     $ cd ~/.emacs.d/
-    $ git clone https://Alexandre-Strzelewicz@github.com/Alexandre-Strzelewicz/gc-refresh.git
+    $ git clone https://Alexandre-Strzelewicz@github.com/Alexandre-Strzelewicz/gc-refresh-mode.git
     $ emacs ~/.emacs.el
 
 Then add to your .emacs.el :

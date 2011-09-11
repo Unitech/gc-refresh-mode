@@ -20,7 +20,7 @@ If all of this is OK so you can install it :
 
 Then add to your .emacs.el :
 
-     (add-to-list 'load-path (expand-file-name "~/.emacs.d/gc-refresh"))
+     (add-to-list 'load-path (expand-file-name "~/.emacs.d/gc-refresh-mode"))
      (require 'gc-refresh-mode)
 
 # USAGE

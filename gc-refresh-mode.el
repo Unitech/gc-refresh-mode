@@ -1,34 +1,14 @@
-;;;;;;;;;;;;;;;;;;;;;; GC REFRESH v0.1 ;;;;;;;;;;;;;;;;;;;;
-;;
-;; GC Refresh by Strzelewicz Alexandre (http://apps.hemca.com)
-;;
-;; This plugin auto-reload Chromium tabs when you save a file
-;;
-;;;;;;;;;;;;;;;;;;;;; /!\ PLEASE /!\ ;;;;;;;;;;;;;;;;
-;;
-;;;;;;;; Contribute to : http://emacs.vote-system.com/ !
-;;
-;;;;;;;;;;;;;;;;;;;; INSTALLATION ;;;;;;;;;;;;;;;;;;;
-;;
-;; 1- You must be on a UNIX system
-;; 2- chromium-browser must be accessible from the command line !
-;;
-;; If all of this is OK so you can install it :
-;;
-;; $ cd ~/.emacs.d/
-;; $ git clone
-;; $ emacs ~/.emacs.el
-;; Add to your .emacs.el :
-;;           (add-to-list 'load-path (expand-file-name "~/.emacs.d/gc-refresh"))
-;;           (require 'gc-refresh-mode)
-;;
-;;;;;;;;;;;;;;;;;;;;;;; TODO ;;;;;;;;;;;;;;;;;;;;;
-;;
-;; TODO
-;; - File parsing to get URL to refresh & open directly the right page
-;;
-;; MIT licensed
-;;
+;;; lisp-mnt.el --- minor mode for Emacs Lisp maintainers
+     
+;; Copyright (C) 1992 Free Software Foundation, Inc.
+     
+;; Author: Strzelewicz Alexandre <strzelewicz.alexandre@gmail.com>
+;; Maintainer: Strzelewicz Alexandre <strzelewicz.alexandre@gmail.com>
+;; Created: 15 Sept 2011
+;; Version: 1.0
+;; Keywords: Refresh Chrome
+;; This file is part of GNU Emacs.
+;; along with GNU Emacs.  If not, see <http://www.gnu.org/licenses/>.
 
 (defvar gc-refresh-mode-hook nil)
 (defvar gc-refresh-line-cmd nil)
